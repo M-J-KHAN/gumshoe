@@ -1,0 +1,26 @@
+# The Harvester - Usage Guide
+## Prerequisites
+Before using The Harvester, make sure you have the following prerequisites installed on your system:
+- Python 3.6 or later
+- Git
+- pip (Python package installer)
+
+## Installation
+1. Clone The Harvester repository:
+    git clone https://github.com/M-J-Khan/gumshoe.git
+2. Navigate to the Harvester directory:
+    cd theHarvester
+3. Install dependencies:
+    sudo apt-get install python3-pip
+    pip3 install -r requirements.txt
+
+## Running The Harvester
+Use the following command to run The Harvester:
+python3 theHarvester.py -d example.com -b all
+
+## Output
+The Harvester will generate output containing information such as email addresses, subdomains, and virtual hosts associated with the target.
+
+##Note
+-d (Target domain)
+-b (Data sources)
