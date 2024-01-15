@@ -9,7 +9,7 @@ This repository contains documentation, code (if applicable), and data files rel
 - Install The Harvester: `sudo apt-get install theHarvester`
 
 ## Usage
-Basic usage: `theharvester -d example.com -l 500 -b google`
+Basic usage: `theHarvester -d example.com -l 500 -b google`
 For more detailed usage instructions, refer to my usage file.
 
 ## Examples
